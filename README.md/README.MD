@@ -1,0 +1,42 @@
+# 📊 Stock Portfolio Tracker
+This project calculates the total investment value based on predefined stock prices and user input.
+
+# 🚀 Project Overview
+
+The Stock Portfolio Tracker allows users to:
+
+Enter a stock name
+
+Enter the quantity
+
+Calculate the total investment value
+
+(Optional) Save results to a .txt file
+
+
+This project demonstrates the use of dictionaries, arithmetic operations, and basic file handling in Python.
+
+# 🧠 Key Concepts Used
+
+Dictionary – to store predefined stock prices
+
+Input/Output – for interacting with the user
+
+Basic Arithmetic – to calculate total investment
+
+File Handling (Optional) – to save output into a file
+
+# 📝 Features
+
+✔ Displays available stocks
+✔ Checks if the entered stock is valid
+✔ Calculates total investment value
+✔ User-friendly and beginner-friendly
+✔ Saves results to portfolio.txt (optional)
+
+# 🙌 Acknowledgment
+
+This project is part of my #CodeAlpha Internship.
+Grateful for the learning opportunity and hands-on experience!
+
+
