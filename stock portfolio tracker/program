@@ -1,0 +1,38 @@
+# Stock Portfolio Tracker - CodeAlpha Task 2
+
+stock_prices = {
+    "AAPL": 180,
+    "TSLA": 250,
+    "AMZN": 140,
+    "GOOGL": 120,
+    "NVDA": 480
+}
+
+print("📊 Welcome to the Stock Portfolio Tracker!")
+print("Available stocks:", ", ".join(stock_prices.keys()))
+
+stock_name = input("Enter the stock name: ").upper()
+quantity = int(input("Enter quantity: "))
+
+if stock_name in stock_prices:
+    price = stock_prices[stock_name]
+    total_investment = price * quantity
+
+    print(f"\n✔ Stock: {stock_name}")
+    print(f"✔ Price per share: ${price}")
+    print(f"✔ Quantity: {quantity}")
+    print(f"💰 Total Investment Value = ${total_investment}")
+
+    save = input("\nDo you want to save this result to a file? (yes/no): ").lower()
+
+    if save == "yes":
+        with open("portfolio.txt", "w") as f:
+            f.write(f"Stock: {stock_name}\n")
+            f.write(f"Price per share: ${price}\n")
+            f.write(f"Quantity: {quantity}\n")
+            f.write(f"Total Investment: ${total_investment}\n")
+        print("📁 Result saved in portfolio.txt")
+    else:
+        print("Result not saved.")
+else:
+    print("❌ Error: Stock not found in the list!")
