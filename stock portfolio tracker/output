@@ -1,0 +1,12 @@
+📊 Welcome to the Stock Portfolio Tracker!
+Available stocks: AAPL, TSLA, AMZN, GOOGL, NVDA
+Enter the stock name: AAPL
+Enter quantity: 3
+
+✔ Stock: AAPL
+✔ Price per share: $180
+✔ Quantity: 3
+💰 Total Investment Value = $540
+
+Do you want to save this result to a file? (yes/no): yes
+📁 Result saved in portfolio.txt
